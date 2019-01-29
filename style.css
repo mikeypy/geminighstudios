@@ -104,13 +104,13 @@ a:any-link {
     height: 50vh;
 }
 .content {
-    top : 5%;
+    top: 5%;
     margin-top: 5px;
 }
 .content .text {
     display: none;
 }
-.grid-3 .grid-2 {
+.grid-3, .grid-2 {
     grid-template-columns: 1fr;
 }
 .services div {
@@ -127,6 +127,6 @@ a:any-link {
         display: none;
     }
     .content {
-        top : 5%;
+        top: 0;
     }
 }
